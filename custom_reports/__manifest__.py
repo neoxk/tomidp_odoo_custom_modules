@@ -2,14 +2,14 @@
 {
     'name': "custom_reports",
 
-    'summary': "Short (1 phrase/line) summary of the module's purpose",
+    'summary': "Custom reports for Tomidp",
 
     'description': """
-Long description of module's purpose
+        Slovenian translation and customization of reports for Tomidp
     """,
 
-    'author': "My Company",
-    'website': "https://www.yourcompany.com",
+    'author': "Neo X Kirbiš",
+    'website': "neoxk.dev",
 
     # Categories can be used to filter modules in modules listing
     # Check https://github.com/odoo/odoo/blob/15.0/odoo/addons/base/data/ir_module_category_data.xml
@@ -18,7 +18,7 @@ Long description of module's purpose
     'version': '0.1',
 
     # any module necessary for this one to work correctly
-    'depends': ['base'],
+    'depends': ['base', 'account', 'sale'],
 
     # always loaded
     'data': [
