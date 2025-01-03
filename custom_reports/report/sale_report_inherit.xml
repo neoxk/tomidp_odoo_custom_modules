@@ -13,5 +13,12 @@
         <div t-field="doc.validity_date">2023-12-31</div>
       </div>
     </xpath>
+
+<xpath expr="//span[@t-field='doc.note']" position="before">
+    <span style="text-align:justify;text-justify:inter-word;">
+        DDV ni obračunan na podlagi 1. odstavka 94. člena Zakona o davku na dodano vrednost.
+    </span>
+</xpath>
+
   </template>
 </odoo>
