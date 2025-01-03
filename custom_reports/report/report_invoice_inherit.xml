@@ -54,11 +54,12 @@
       </div>
     </xpath>
 
-<xpath expr="//span[@t-field='doc.note']" position="before">
+<xpath expr="//div[@class='mb-3'][span[@id='payment_terms_note_id']]" position="after">
     <span style="text-align:justify;text-justify:inter-word;">
         DDV ni obračunan na podlagi 1. odstavka 94. člena Zakona o davku na dodano vrednost.
     </span>
 </xpath>
+
 
 
   </template>
